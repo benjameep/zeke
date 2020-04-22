@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Choose Your Own Adventure!</title>
+  </head>
+  <body>
+    <script>
+    if(prompt(`You crashed your helicpter and you are now stranded in the middle of an island!
+Do you stay by the helicopter? (yes/no)`) == 'yes'){
+
+   if(prompt("there is a fire stomp it out?")== 'yes')
+       alert(" Your on fire! You die")
+   else
+       alert("Island is on fire you die")
+
+} else {
+   if( prompt('Do you want to look for food ?') === 'yes'){
+       if(prompt("coconuts or fish") === 'coconuts'){
+           alert( 'Can not open coconut. You looks on youtube to find how to open it realize your phone works. Then your phone dies and you are stranded')
+       } else {
+           if( prompt ( "You find some fish. Would you like to catch them with your hands?") === 'yes'){
+               if(prompt (" Do fish have rabies?")==='yes'){
+                   alert(" You actually have no idea. You die")
+               }else{ alert(" Fact of the week. THEY DO. You die")}
+               
+
+           } else {
+               if( prompt(' You find a stick near by, Would you like to try to spear the fish?')==='yes'){
+                   alert("Your a bad thower and you hit a shark. Sharks gets mad. You die")
+               }else{
+                   if( prompt(' Would you like to stab yourself with the stick?')==='yes'){
+                       if(prompt('The stick was magically. Yay. It can teleport you too. Do want to try?')==='yes'){
+                           alert('It teleports you in an aligaters mouth in the amazon. Congragualations you got off the Island. You Die')
+                       }else{
+                           alert(" You somehow accidently make a spell and Ben appear Yay!!!!! " )
+                       }
+                   }else{alert(" You somehow trip and fall into the water. You realize your phone was in the water and now does not work. You die" )
+                       
+                   }
+               }
+
+           }
+       }
+   }else{
+
+      alert( " You die")
+   }
+}
+
+    </script>
+  </body>
+</html>
